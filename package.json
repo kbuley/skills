@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "AI agent skills installer for Claude Code, Cursor, Gemini, Codex, Kiro, and Copilot",
   "bin": {
-    "skills": "./bin/install.js"
+    "skills": "bin/install.js"
   },
   "files": [
-    "bin",
-    "skills"
+    "bin/",
+    "skills/"
   ],
   "publishConfig": {
     "access": "public"
