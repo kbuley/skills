@@ -23,6 +23,10 @@
     "codex",
     "kiro"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kbuley/skills"
+  },
   "author": "Kevin Buley",
   "license": "MIT",
   "engines": {
