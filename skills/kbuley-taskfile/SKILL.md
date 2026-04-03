@@ -11,7 +11,7 @@ description: >
 
   Triggers: "taskfile", "Taskfile.yaml", "task command", "task:", "create task", "add task",
   "task --list", "Makefile to Taskfile", "task runner", "taskfile.dev", "task run", "task build"
-user-invocable: false
+user-invocable: true
 ---
 
 # Taskfile Development
