@@ -1,6 +1,6 @@
 {
   "name": "@kbuley/skills",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "AI agent skills installer for Claude Code, Cursor, Gemini, Codex, Kiro, and Copilot",
   "bin": {
     "skills": "bin/install.js"

@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/kbuley/skills/compare/v1.0.2...v1.0.3) (2026-04-03)
+
+
+### Bug Fixes
+
+* add homepage field to package.json ([2303030](https://github.com/kbuley/skills/commit/2303030ea748acb2a31078cc6bbbe61d1b0df933))
+
 ## [1.0.2](https://github.com/kbuley/skills/compare/v1.0.1...v1.0.2) (2026-04-03)
 
 
