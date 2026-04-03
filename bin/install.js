@@ -113,7 +113,7 @@ Options:
   --codex        Install to ~/.codex/skills/kbuley/
   --kiro         Install to ~/.kiro/skills/kbuley/
   --copilot      Install to ~/.copilot/skills/kbuley/
-                 (Windows: %USERPROFILE%\\.copilot\\skills\\kbuley-skills\\)
+                 (Windows: %USERPROFILE%\\.copilot\\skills\\kbuley\\)
   --path <dir>   Install to <dir> (no namespace applied)
   --help, -h     Show this help message
 
