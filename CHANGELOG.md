@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/kbuley/skills/compare/v1.0.3...v1.0.4) (2026-04-03)
+
+
+### Bug Fixes
+
+* explicitly include README.md in npm package files ([e503900](https://github.com/kbuley/skills/commit/e5039006b74969a9394ca5b4e8db860f61fbd621))
+
 ## [1.0.3](https://github.com/kbuley/skills/compare/v1.0.2...v1.0.3) (2026-04-03)
 
 
