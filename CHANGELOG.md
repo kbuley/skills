@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/kbuley/skills/compare/v1.0.5...v1.1.0) (2026-04-03)
+
+
+### Features
+
+* make kbuley-taskfile skill user-invocable ([7ea9a6b](https://github.com/kbuley/skills/commit/7ea9a6b51e75649ac599993ea0dbb2221686055f))
+
 ## [1.0.5](https://github.com/kbuley/skills/compare/v1.0.4...v1.0.5) (2026-04-03)
 
 
