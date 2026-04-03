@@ -17,7 +17,6 @@ function resolveSafeRealPath(rootDir, symlinkPath) {
   }
 }
 
-const NAMESPACE = "kbuley";
 const INSTALL_MANIFEST_FILE = ".kbuley-install-manifest.json";
 const SKILLS_SRC = path.join(__dirname, "..", "skills");
 
@@ -69,30 +68,30 @@ function getTargets(opts) {
   const targets = [];
 
   if (opts.cursor) {
-    targets.push({ name: "Cursor", path: path.join(HOME, ".cursor", "skills", NAMESPACE) });
+    targets.push({ name: "Cursor", path: path.join(HOME, ".cursor", "skills") });
   }
   if (opts.claude) {
-    targets.push({ name: "Claude Code", path: path.join(HOME, ".claude", "skills", NAMESPACE) });
+    targets.push({ name: "Claude Code", path: path.join(HOME, ".claude", "skills") });
   }
   if (opts.gemini) {
-    targets.push({ name: "Gemini CLI", path: path.join(HOME, ".gemini", "skills", NAMESPACE) });
+    targets.push({ name: "Gemini CLI", path: path.join(HOME, ".gemini", "skills") });
   }
   if (opts.codex) {
     const codexBase = process.env.CODEX_HOME
       ? path.join(process.env.CODEX_HOME, "skills")
       : path.join(HOME, ".codex", "skills");
-    targets.push({ name: "Codex CLI", path: path.join(codexBase, NAMESPACE) });
+    targets.push({ name: "Codex CLI", path: codexBase });
   }
   if (opts.kiro) {
-    targets.push({ name: "Kiro", path: path.join(HOME, ".kiro", "skills", NAMESPACE) });
+    targets.push({ name: "Kiro", path: path.join(HOME, ".kiro", "skills") });
   }
   if (opts.copilot) {
-    targets.push({ name: "Copilot", path: path.join(getCopilotBase(), NAMESPACE) });
+    targets.push({ name: "Copilot", path: getCopilotBase() });
   }
 
   // Default: Claude Code
   if (targets.length === 0) {
-    targets.push({ name: "Claude Code", path: path.join(HOME, ".claude", "skills", NAMESPACE) });
+    targets.push({ name: "Claude Code", path: path.join(HOME, ".claude", "skills") });
   }
 
   return targets;
@@ -107,13 +106,13 @@ function printHelp() {
   Installs skills into the kbuley/ namespace inside your agent's skills directory.
 
 Options:
-  --claude       Install to ~/.claude/skills/kbuley/ (default)
-  --cursor       Install to ~/.cursor/skills/kbuley/
-  --gemini       Install to ~/.gemini/skills/kbuley/
-  --codex        Install to ~/.codex/skills/kbuley/
-  --kiro         Install to ~/.kiro/skills/kbuley/
-  --copilot      Install to ~/.copilot/skills/kbuley/
-                 (Windows: %USERPROFILE%\\.copilot\\skills\\kbuley\\)
+  --claude       Install to ~/.claude/skills/ (default)
+  --cursor       Install to ~/.cursor/skills/
+  --gemini       Install to ~/.gemini/skills/
+  --codex        Install to ~/.codex/skills/
+  --kiro         Install to ~/.kiro/skills/
+  --copilot      Install to ~/.copilot/skills/
+                 (Windows: %USERPROFILE%\\.copilot\\skills\\)
   --path <dir>   Install to <dir> (no namespace applied)
   --help, -h     Show this help message
 

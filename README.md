@@ -2,7 +2,7 @@
 
 AI agent skills for Claude Code, Cursor, Gemini CLI, Codex, Kiro, and Copilot.
 
-Skills are installed into a `kbuley/` namespace inside your agent's skills directory so they stay organized alongside skills from other sources.
+Skills use a `kbuley-` name prefix so they stay organized alongside skills from other sources.
 
 ## Installation
 
@@ -32,15 +32,15 @@ npx @kbuley/skills --path ./my-skills
 
 | Agent | Path |
 |---|---|
-| Claude Code | `~/.claude/skills/kbuley/` |
-| Cursor | `~/.cursor/skills/kbuley/` |
-| Gemini CLI | `~/.gemini/skills/kbuley/` |
-| Codex CLI | `~/.codex/skills/kbuley/` |
-| Kiro | `~/.kiro/skills/kbuley/` |
-| Copilot (macOS/Linux) | `~/.copilot/skills/kbuley/` |
-| Copilot (Windows) | `%USERPROFILE%\.copilot\skills\kbuley\` |
+| Claude Code | `~/.claude/skills/` |
+| Cursor | `~/.cursor/skills/` |
+| Gemini CLI | `~/.gemini/skills/` |
+| Codex CLI | `~/.codex/skills/` |
+| Kiro | `~/.kiro/skills/` |
+| Copilot (macOS/Linux) | `~/.copilot/skills/` |
+| Copilot (Windows) | `%USERPROFILE%\.copilot\skills\` |
 
-Re-running the installer updates existing skills and removes any that have been deleted.
+Skills use a `kbuley-` name prefix to avoid collisions with skills from other sources. Re-running the installer updates existing skills and removes any that have been deleted.
 
 ## Skills
 
