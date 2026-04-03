@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/kbuley/skills/compare/v1.0.1...v1.0.2) (2026-04-03)
+
+
+### Bug Fixes
+
+* add repository url to package.json for npm provenance validation ([2792b51](https://github.com/kbuley/skills/commit/2792b51076f5cd85fe313fa7f73f0c0bc9b4f012))
+
 ## [1.0.1](https://github.com/kbuley/skills/compare/v1.0.0...v1.0.1) (2026-04-03)
 
 
