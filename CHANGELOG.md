@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/kbuley/skills/compare/v1.0.4...v1.0.5) (2026-04-03)
+
+
+### Bug Fixes
+
+* rename skill dir and file for Claude Code discovery ([82230b9](https://github.com/kbuley/skills/commit/82230b9d2319d1f0223352b53bf7c4c3646565fb))
+
 ## [1.0.4](https://github.com/kbuley/skills/compare/v1.0.3...v1.0.4) (2026-04-03)
 
 
