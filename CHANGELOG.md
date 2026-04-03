@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/kbuley/skills/compare/v1.0.0...v1.0.1) (2026-04-03)
+
+
+### Bug Fixes
+
+* remove persist-credentials: false to allow semantic-release git push ([1005c46](https://github.com/kbuley/skills/commit/1005c46a206dec1b5b916e20c53d16becf7279cc))
+
 # 1.0.0 (2026-04-02)
 
 
